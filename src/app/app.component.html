@@ -1,2 +1,3 @@
-<app-sidebar></app-sidebar>
-<app-form></app-form>
+<app-sidebar (selected)="onNavigate($event)"></app-sidebar>
+<app-form *ngIf="loadedvalue === 'home'"></app-form>
+<app-list *ngIf="loadedvalue === 'list'"></app-list>
