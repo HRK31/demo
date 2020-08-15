@@ -1,0 +1,18 @@
+form{
+    margin-left: 160px;
+    font-size: 20px;
+    padding: 0px 10px;
+    margin-top: 50px;
+    font-family: Poppins,'sans-serif';
+}
+.dropdown
+{
+    margin-left: 160px;
+    font-size: 20px;
+    padding: 0px 10px;
+    font-family: Poppins,'sans-serif';
+}
+
+.btn{
+    margin-top: 20px;
+}
