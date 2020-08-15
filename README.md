@@ -1,5 +1,7 @@
 # Demo
 
+This project contains a side navigation bar which consists two options Home and List. The landing page consists the side nav bar and form. On clicking Home forms appear on screen. On clicking the List 3x3 grid list appears containing label.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
 
 ## Development server
