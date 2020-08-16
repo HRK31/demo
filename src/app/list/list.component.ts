@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListComponent implements OnInit {
 
+  label: string[]=['Label','Label','Label'];
   constructor() { }
 
   ngOnInit(): void {
