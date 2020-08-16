@@ -1,15 +1,3 @@
-<div >
-<p ><span id="label" style="padding-top: 50px;">Label</span>
-<span id="label" style="padding-top: 50px;">Label</span>
-<span id="label" style="padding-top: 50px;">Label</span></p>
-</div>
-<div >
-    <p ><span id="label" style="padding-top: 50px;">Label</span>
-    <span id="label" style="padding-top: 50px;">Label</span>
-    <span id="label" style="padding-top: 50px;">Label</span></p>
-    </div>
-    <div >
-        <p ><span id="label" style="padding-top: 50px;">Label</span>
-        <span id="label" style="padding-top: 50px;">Label</span>
-        <span id="label" style="padding-top: 50px;">Label</span></p>
-        </div>
+<p *ngFor="l of label">
+    <span id="label" *ngFor="l of label" style="padding-top: 50px;">Label</span>
+</p>
